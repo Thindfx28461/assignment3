@@ -1,0 +1,27 @@
+@media only screen and (max-width: 576px) {
+    /* For mobile: */
+    #job-info .col-grig-mb-1{grid-template-columns: repeat(1, 1fr);}
+}@media only screen and (max-width: 576px) {
+    /* For mobile: */
+    #job-info .col-grig-mb-1{grid-template-columns: repeat(1, 1fr);}
+    .project {
+        flex-direction: column;
+        padding-left: 0%;
+        align-items: center;
+      }
+    .grid_1{
+        width: 370px;
+    }
+    .control-view4{
+        margin-top: -30px;
+    }
+    .control-view5{
+        margin-top: 40px;
+      }
+    #nav-bar .container{
+        grid-template-columns: 1fr;
+    }
+    #nav-bar .container .grid-nav-bar-hs{
+        display: none;
+    }
+}
